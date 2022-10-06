@@ -1,7 +1,30 @@
 .container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+// breakpoints:
+// mobile - 480 px
+// tablet - 768 px
+// desktop - 1200px
+
+// mobile styles
+// content 450px + 30px padding
+max-width: 480px;
+padding-left: 15px;
+padding-right: 15px;
+
+margin-left: auto;
+margin-right: auto;
+
+// tablet styles
+// content 738px + 30px padding
+@media screen and (min-width: 768px) {
+    max-width: 768px;
+    }
+
+// desktop styles
+// content 1170px + 30px padding
+@media screen and (min-width: 1200px) {
+    max-width: 1200px;    
+    }
 }
+
+
+
