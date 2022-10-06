@@ -1,0 +1,52 @@
+.page__header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.auth-nav {
+    display: flex;
+}
+
+.auth-nav__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+        }
+}
+
+.auth-nav__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.auth-nav__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    fill: currentColor;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-cl);
+        }
+}
+
+.auth-nav__icon {
+    fill: currentColor;
+}

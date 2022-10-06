@@ -1,0 +1,44 @@
+.section-client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients__title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    background-color: #FFFFFF;
+    border: 1px solid #afb188;
+    border-radius: 4px;
+
+    transition-property: color, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-bg-cl);
+        border: 1px solid var(--accent-bg-cl);
+        }
+}
+
+.clients__icon {
+    fill: currentColor;
+}
