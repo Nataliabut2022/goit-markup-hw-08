@@ -27,6 +27,26 @@
         <div class="container header-container">
         <nav class="nav">
             <a class="logo" href="./index.html"><span lang="en" class="logospan">Web</span>Studio</a>  
+
+            <button type="button"
+             class="menu__btn is-open" 
+             aria-expanded="false"
+             aria-controls="menu-container"
+             data-menu-button
+             >
+                <svg width="40" height="40"
+                aria-label="Переключатель мобильного меню"
+                >
+                    <use class="icon__close" href="./images/icons.svg#close"></use>
+                    <use class="icon__menu" href="./images/icons.svg#menu"></use>
+                </svg>
+            </button>
+
+            <div class="menu__container" id="menu-container" data-menu>
+                Студія
+                Портфоліо
+                Контакти
+            </div>
             
             <ul class="nav__list list">
                 <li class="nav__item"> 
@@ -538,6 +558,7 @@
 
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 
 </body>
 </html>
