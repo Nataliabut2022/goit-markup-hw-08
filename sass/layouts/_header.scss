@@ -1,4 +1,4 @@
-/*.page__header {
+.page__header {
     position: relative;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -12,6 +12,9 @@
 
 .auth-nav {
     display: flex;
+    @media screen and (max-width: 480px) {
+            display: none;
+    }
 }
 
 .auth-nav__item {
@@ -50,4 +53,4 @@
 
 .auth-nav__icon {
     fill: currentColor;
-}*/
+}

@@ -6,7 +6,15 @@
     margin-right: auto;
     outline: 1px solid #000;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/header.jpg);
+            url(../images/_sm-header-@1x.png);
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/_sm-header-@2x.png);
+        }
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -17,14 +25,38 @@
         max-width: 768px;
     }
     
+    @media screen and (min-width: 481px) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/_md-header-@1x.png);
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url(../images/_md-header-@2x.png);
+        }
+    }
+
     // desktop styles        
     @media screen and (min-width: 1200px) {
         max-width: 1600px;
     }
+
+        @media screen and (min-width: 769px) {
+            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../images/_lg-header-@1x.png);
+    
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                    url(../images/_lg-header-@2x.png);
+            }
+        }
 }
 
 
-/*
+
 .hero {
     background-color: #2F303A;
     max-width: 1600px;
@@ -36,7 +68,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}*/
+}
 
 .hero__title {
     // mobile styles
@@ -66,7 +98,7 @@
     }
 }
 
-/*.hero__title {
+.hero__title {
     width: 696px;
     margin-bottom: 30px;
     color: var(--light-txt-cl);
@@ -79,5 +111,5 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}*/
+}
 
