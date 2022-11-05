@@ -125,10 +125,11 @@
 
 .item__socials {
     display: flex;
+    
 }
 
 .item__socials:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 20px;    
 }
 
 .link__socials {
@@ -138,4 +139,5 @@
     letter-spacing: 0.02em;
     color: var(--accent-txt-cl);
     text-decoration: none;
+    
 }

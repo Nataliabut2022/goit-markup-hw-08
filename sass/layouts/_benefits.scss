@@ -9,11 +9,6 @@
         }
 }
 
-.benefits {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .benefit {
     display: block;
     
@@ -22,11 +17,6 @@
             display: flex;
             gap: 30px;
         }
-}
-
-.benefit {
-    display: flex;
-    gap: 30px;
 }
 
 .benefit__item {
@@ -41,10 +31,6 @@
         @media screen and (min-width: 1200px) {
             width: 270px;
         }
-}
-
-.benefit__item {
-    width: 270px;
 }
 
 .benefit-icons {
