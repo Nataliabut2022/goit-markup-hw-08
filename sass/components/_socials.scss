@@ -32,7 +32,7 @@
 /* Social-footer */
 
 .social-footer {
-    margin-right: auto;
+    margin-right: auto;    
 }
 
 .social-footer-text {
@@ -60,9 +60,9 @@
     &:focus {
         color: var(--light-txt-cl);
         background-color: var(--accent-bg-cl);
-        }
+        }                
 }
 
-.socials-footer-icon {
-    fill: currentColor;
+.socials-footer-icon {    
+    fill: currentColor;    
 }

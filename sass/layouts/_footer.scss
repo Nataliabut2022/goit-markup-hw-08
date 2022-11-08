@@ -5,12 +5,30 @@
 }
 
 .container-footer {
-    display: flex;
-    align-items: baseline
+    display: block;
+    text-align: center;
+    
+
+    @media screen and (min-width: 768px) {
+            display: flex;
+            align-items: center;
+        }
+    
+    @media screen and (min-width: 1200px) {
+            display: flex;
+            align-items: baseline;
+        }
 }
 
-.contact-footer {
-    margin-right: 70px;
+.contact-footer {    
+
+    @media screen and (min-width: 768px) {
+        margin-right: 165px;
+        }
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 70px;
+         }
 }
 
 .footer-address {
@@ -30,6 +48,8 @@
 }
 
 .footer-item {
+    margin-bottom: 60px;
+
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;

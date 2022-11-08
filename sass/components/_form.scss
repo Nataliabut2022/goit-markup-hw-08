@@ -5,19 +5,26 @@
     margin-bottom: 20px;
     color: #FFFFFF;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
 
 .subs-form {
     display: flex;
+    
+    @media screen and (max-width: 1199px) {
+        display: block;
+        flex-direction: column;
+        justify-content: center;        
+    }
 }
 
 .subs-form-input {
-    width: 358px;
+    width: 100%;
     height: 50px;
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 20px;
 
     font-size: 16px;
     line-height: 20px;
@@ -30,6 +37,17 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: transparent;
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        
+        }
+
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+        margin-bottom: 0;
+        
+        }
 }
 
 .subs-btn {
@@ -50,6 +68,12 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+
+    @media screen and (max-width: 1199px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
 }
 
 /* Register form */
