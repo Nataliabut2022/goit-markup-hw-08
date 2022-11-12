@@ -632,6 +632,7 @@ img {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    text-align: left;
   }
 }
 
@@ -957,6 +958,10 @@ img {
 }
 
 /* Social-form */
+.social-form {
+  margin-top: 60px;
+}
+
 .social-form-text {
   display: block;
   margin-bottom: 20px;
