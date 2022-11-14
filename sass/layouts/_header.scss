@@ -10,19 +10,22 @@
     align-items: center;
 }
 
-.nav__auth-nav {
+/*.nav__auth-nav {
     @media screen and (min-width: 769px) {
-                    }
-}
+        display: flex;
+        margin-left: auto;
+        }
+}*/
 
-.auth-nav {
-    display: flex;
-    @media screen and (max-width: 480px) {
+.auth-nav {        
+    @media screen and (max-width: 768px) {
             display: none;
     }
 
-    @media screen and (min-width: 769px) {        
-        flex-direction: column;      
+    @media screen and (min-width: 769px) {   
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;       
                      
     }
 
