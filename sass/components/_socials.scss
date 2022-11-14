@@ -38,8 +38,15 @@
 .social-footer-text {
     color: #FFFFFF;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 700;    
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.socials-footer-list {
+    justify-content: center;
 }
 
 .socials-footer-link {
