@@ -31,8 +31,12 @@
 
 /* Social-footer */
 
-.social-footer {
-    margin-right: auto;    
+.social-footer {       
+    margin-bottom: 60px;    
+
+    @media screen and (min-width: 1200px) {
+        margin-right: auto;
+        }
 }
 
 .social-footer-text {

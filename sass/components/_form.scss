@@ -1,9 +1,7 @@
 /* Social-form */
-
 .social-form {
-    margin-top: 60px;
-}
     
+}
 
 .social-form-text {
     display: block;
@@ -48,14 +46,12 @@
 
     @media screen and (min-width: 480px) {
         width: 450px;
-        
-        }
+    }
 
     @media screen and (min-width: 1200px) {
         width: 358px;
-        margin-bottom: 0;
-        
-        }
+        margin-bottom: 0;       
+    }
 }
 
 .subs-btn {

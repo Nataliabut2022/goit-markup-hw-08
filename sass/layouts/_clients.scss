@@ -11,12 +11,12 @@
 
 .clients {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 30px;    
                 
         @media screen and (min-width: 1200px) {
-            flex-wrap: nowrap;
-           
+            flex-wrap: nowrap;           
         }
 }
 
@@ -31,8 +31,7 @@
     @media screen and (min-width: 1200px) {
             margin-bottom: 50px;
             font-size: 36px;
-            line-height: calc(42 / 36);
-               
+            line-height: calc(42 / 36);               
         }
 }
 
