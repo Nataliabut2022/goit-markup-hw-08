@@ -213,11 +213,16 @@
 }
 
 .register-form-desc {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 14px;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
     user-select: none;
+
+    @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: 24px;
+        }
 }
 
 .register-form-link {
