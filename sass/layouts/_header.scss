@@ -19,22 +19,19 @@
 }*/
 
 .auth-nav {        
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
             display: none;
     }
 
-    @media screen and (min-width: 769px) {   
+    @media screen and (min-width: 768px) {   
         display: flex;
         flex-direction: column;
-        margin-left: auto;     
-        
-                     
+        margin-left: auto; 
     }
 
     @media screen and (min-width: 1200px) {        
         flex-direction: row;
     }
-
 }
 
 .auth-nav__item {
@@ -52,7 +49,7 @@
 }
 
 .auth-nav__item:not(:last-child) {
-    margin-right: 50px;
+    
 }
 
 .auth-nav__link {
