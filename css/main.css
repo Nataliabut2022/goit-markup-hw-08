@@ -175,14 +175,20 @@ img {
 
 .auth-nav__item {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1428571429;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
   cursor: pointer;
 }
 .auth-nav__item:hover, .auth-nav__item:focus {
   color: var(--accent-txt-cl);
+}
+@media screen and (min-width: 1200px) {
+  .auth-nav__item {
+    font-size: 14px;
+    line-height: 1.1428571429;
+  }
 }
 
 .auth-nav__link {
@@ -378,10 +384,6 @@ img {
   .benefit__item {
     width: 270px;
   }
-}
-
-.benefit__item:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 .benefit-icons {

@@ -47,8 +47,8 @@
 
 .auth-nav__item {
     font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
+    font-size: 12px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
     cursor: pointer;
@@ -57,6 +57,11 @@
     &:focus {
         color: var(--accent-txt-cl);
         }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: calc(16 / 14);
+    }
 }
 
 .auth-nav__link {
