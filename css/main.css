@@ -447,7 +447,7 @@ img {
 @media screen and (min-width: 1200px) {
   .work {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 94px;
   }
 }
 
@@ -464,6 +464,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 0;
 }
 
 .work-thumb {

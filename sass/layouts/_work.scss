@@ -7,7 +7,7 @@
     // desktop styles        
         @media screen and (min-width: 1200px) {
             padding-top: 0;
-            padding-bottom: 0;
+            padding-bottom: 94px;
         }    
 }
 
@@ -22,6 +22,7 @@
 .work .list {
     gap: 30px;
     display: flex;
+    padding-bottom: 0;
 }
 
 .work-thumb {
