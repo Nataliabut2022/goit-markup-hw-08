@@ -1497,7 +1497,7 @@ img {
 .link__mail {
   font-weight: 500;
   font-size: 24px;
-  line-height: 0.8571428571;
+  line-height: 1.1666666667;
   letter-spacing: 0.02em;
   color: var(--secondary-txt-cl);
   text-decoration: none;
@@ -1508,6 +1508,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 64px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 
 .item__socials {
@@ -1516,17 +1519,20 @@ img {
   display: flex;
 }
 
-.item__socials:not(:last-child) {
-  margin-right: 20px;
-}
-
 .link__socials {
   font-weight: 500;
   font-size: 18px;
-  line-height: 0.8181818182;
+  line-height: 1.2222222222;
   letter-spacing: 0.02em;
   color: var(--accent-txt-cl);
   text-decoration: none;
+}
+
+.item__socials:not(:last-child) {
+  padding-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
-  margin-right: 10px;
+}
+
+.item__socials:not(:first-child) {
+  padding-left: 10px;
 }/*# sourceMappingURL=main.css.map */

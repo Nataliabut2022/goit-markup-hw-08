@@ -112,7 +112,7 @@
 .link__mail {
     font-weight: 500;
     font-size: 24px;
-    line-height: calc(24 / 28);
+    line-height: calc(28 / 24);
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
     text-decoration: none;
@@ -121,25 +121,29 @@
 .mobile-socials {
     display: flex;
     margin-top: 64px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .item__socials {
-    display: flex;
+    display: flex;   
     
-}
-
-.item__socials:not(:last-child) {
-    margin-right: 20px;    
 }
 
 .link__socials {
     font-weight: 500;
     font-size: 18px;
-    line-height: calc(18 / 22);
-    letter-spacing: 0.02em;
+    line-height: calc(22 / 18);
+    letter-spacing: 0.02em;   
     color: var(--accent-txt-cl);
-    text-decoration: none;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-    margin-right: 10px;
-    
+    text-decoration: none;           
+}
+
+.item__socials:not(:last-child) {
+    padding-right: 10px;    
+    border-right: 1px solid rgba(33, 33, 33, 0.2);    
+}
+
+.item__socials:not(:first-child) {
+    padding-left: 10px;   
 }
