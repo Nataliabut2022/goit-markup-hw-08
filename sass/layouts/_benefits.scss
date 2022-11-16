@@ -23,7 +23,11 @@
 }
 
 .benefit__item {
-    width: 450px;
+    width: 100%;
+
+    @media screen and (min-width: 480px) {
+            width: 450px;
+        }
    
 
     // tablet styles        
