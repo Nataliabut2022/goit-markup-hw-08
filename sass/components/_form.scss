@@ -1,8 +1,4 @@
 /* Social-form */
-.social-form {
-    
-}
-
 .social-form-text {
     display: block;
     margin-bottom: 20px;
@@ -213,8 +209,11 @@
 }
 
 .register-form-desc {
+
+    font-weight: 400;    
+    line-height: calc(47 / 40);
     font-size: 12px;
-    line-height: 14px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
     user-select: none;
